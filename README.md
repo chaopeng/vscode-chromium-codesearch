@@ -4,6 +4,7 @@ chromium-codesearch is a vscode extension integate with chromiumcode search.
 chromium-codesearch is inspired by 
 [karlinjf/ChromiumXRefs](https://github.com/karlinjf/ChromiumXRefs).
 
+- [vscode extension](https://marketplace.visualstudio.com/items?itemName=chaopeng.chromium-codesearch)
 - [Github](https://github.com/chaopeng/vscode-chromium-codesearch)
 - [Issue](https://github.com/chaopeng/vscode-chromium-codesearch/issues)
 
