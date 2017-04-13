@@ -25,11 +25,6 @@ Youtube:
 
 Cursor under a symbol or select a symbol. `F1` - `CodeSearchReferences` enter.
 
-- Definition
-
-Use right click menu or built-in short cut call `go to definition` or
-`peek definition`.
-
 - References
 
 Use right click menu or built-in short cut call `find all references`.

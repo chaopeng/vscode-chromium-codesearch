@@ -20,8 +20,6 @@ import CsTextProvider, { encodeLocation } from './textProvider';
 import { outputAppend, error } from './errorHandler';
 import { getSymbolAtPosition } from './codesearchApi';
 import CsReferenceProvider from './referenceProvider';
-import CsDefinitionProvider from './definitionProvider';
-
 
 function run(cmd: string) {
   return new Promise((accept, reject) => {
@@ -42,7 +40,6 @@ export function activate(context: ExtensionContext) {
 
   const providerRegistrations = Disposable.from(
     workspace.registerTextDocumentContentProvider(CsTextProvider.scheme, new CsTextProvider()),
-    languages.registerDefinitionProvider({ language: 'cpp', scheme: 'file' }, new CsDefinitionProvider()),
     languages.registerReferenceProvider({ language: 'cpp', scheme: 'file' }, new CsReferenceProvider())
   );
 

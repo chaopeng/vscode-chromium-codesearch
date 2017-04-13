@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.6
+
+Remove go to definition.
+
 ## 0.0.4
 
 Fix the published extension.
