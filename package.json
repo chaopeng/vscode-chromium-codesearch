@@ -2,7 +2,7 @@
     "name": "chromium-codesearch",
     "displayName": "chromium-codesearch",
     "description": "This extension is a vscode extension integate with chromiumcode search.",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "publisher": "chaopeng",
     "repository": {
         "type": "git",
@@ -47,6 +47,7 @@
     },
     "dependencies": {
         "lru-cache": "^4.0.2",
+        "request": "^2.81.0",
         "request-promise-native": "^1.0.3",
         "spawn-command": "0.0.2-1"
     }
