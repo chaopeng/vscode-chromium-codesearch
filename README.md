@@ -1,4 +1,4 @@
-# chromium-codesearch
+# chromium-codesearch [Deprecated]
 
 chromium-codesearch is a vscode extension integate with chromiumcode search.
 chromium-codesearch is inspired by 
@@ -20,13 +20,13 @@ Youtube:
 - Open current line in code search on chrome.
 
 `F1` - `CodeSearchOpen` enter.
+  
+- <del>Open XRef Infomation</del>
 
-- Open XRef Infomation
+<del>Cursor under a symbol or select a symbol. `F1` - `CodeSearchReferences` enter.</del>
 
-Cursor under a symbol or select a symbol. `F1` - `CodeSearchReferences` enter.
+- <del>References</del>
 
-- References
-
-Use right click menu or built-in short cut call `find all references`.
+<del>Use right click menu or built-in short cut call `find all references`.</del>
 
 **Enjoy!**
